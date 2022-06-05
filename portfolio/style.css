@@ -1,0 +1,166 @@
+.container-fluid {
+  background-color: #f1f1f1;
+  max-width: 100%;
+}
+.prvi {
+  height: 80px;
+}
+.prvi-a {
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+}
+.prvi-a img {
+  width: 80px;
+}
+.lista li {
+  margin-left: 10px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+.lista a {
+  color: #393939;
+  font-weight: 800;
+}
+.dodatak-1 {
+  padding: 150px 250px;
+}
+.galerija {
+  height: 340px;
+  padding: 0;
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+.pic-1 {
+  background-image: url(../media/slike/image-1.jpg);
+}
+.pic-2 {
+  background-image: url(../media/slike/image-2.jpg);
+}
+.pic-3 {
+  background-image: url(../media/slike/image-3.jpg);
+}
+.pic-4 {
+  background-image: url(../media/slike/image-4.jpg);
+}
+.pic-5 {
+  background-image: url(../media/slike/image-5.jpg);
+}
+.pic-6 {
+  background-image: url(../media/slike/image-6.jpg);
+}
+.pic-7 {
+  background-image: url(../media/slike/image-7.jpg);
+}
+.pic-8 {
+  background-image: url(../media/slike/image-8.jpg);
+}
+.pic-9 {
+  background-image: url(../media/slike/image-9.jpg);
+}
+.galerija-1 {
+  height: 95%;
+  width: 95%;
+}
+.galerija-1:hover {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.galerija-1 h3 {
+  display: block;
+  opacity: 0;
+  text-align: center;
+  padding-top: 100px;
+}
+.galerija-1:hover h3 {
+  opacity: 1;
+  transition: 0.6s;
+  color: white;
+  padding-top: 160px;
+}
+.kraj-a {
+  justify-content: center;
+  background-color: #e2e1e1;
+}
+.kraj-b {
+  height: 120px;
+}
+.kraj-b-1 {
+  text-align: center;
+  padding-top: 25px;
+}
+.kraj-tekst {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+  color: #444;
+}
+.ikonice {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  fill: #444;
+}
+
+@media only screen and (max-width: 1199px) {
+  .dodatak-1 {
+    padding: 125px 150px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dodatak-1 {
+    padding: 100px;
+  }
+  .lista li {
+    border-left: 5px solid #393939;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-bottom: 1px dotted black;
+  }
+  .prvi-a {
+    flex-direction: column;
+  }
+  .dopuna-1 {
+    margin-left: 30%;
+  }
+  .prvi-dopuna > div {
+    display: flex !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dodatak-1 {
+    padding: 70px;
+  }
+  .galerija {
+    height: 260px;
+  }
+  .galerija-1:hover h3 {
+    padding-top: 110px;
+  }
+  .prvi-a > div {
+    display: flex !important;
+  }
+  .dopuna-1 {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .dodatak-1 {
+    padding: 100px 60px;
+  }
+  .galerija {
+    height: 210px;
+  }
+  .galerija-1 h3 {
+    font-size: 20px;
+  }
+  .galerija-1:hover h3 {
+    padding-top: 85px;
+  }
+  .dopuna-1 {
+    margin-left: 3%;
+  }
+}

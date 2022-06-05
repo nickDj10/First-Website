@@ -1,0 +1,734 @@
+.container-fluid {
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.prvi {
+  background-image: url(media/home-7.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.prvi-b {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+.prvi-c {
+  height: 80px;
+}
+.prvi-c-nav {
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+}
+.prvi-c-nav img {
+  width: 80px;
+}
+.lista li {
+  margin-left: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.lista a {
+  color: #393939;
+  font-weight: 800;
+}
+.prvi-c-tekst {
+  text-align: center;
+  color: white;
+  padding-top: 220px;
+}
+.prvi-c-tekst p {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.prvi-c-tekst h1 {
+  font-family: "Fugaz One", cursive;
+  font-size: 50px;
+}
+.prvi-c-tekst button {
+  padding: 15px 35px;
+  background-color: #252525;
+  color: white;
+  border: #252525;
+  transition: 0.7s;
+  font-family: "Work Sans", sans-serif;
+}
+.prvi-c-tekst button:hover {
+  background-color: #444;
+  border: #444;
+}
+
+.drugi-a-a {
+  margin: auto;
+  width: 45%;
+  text-align: center;
+  padding-top: 80px;
+}
+.drugi-a-a h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-size: 40px;
+}
+.drugi-a-a p {
+  font-family: "Work Sans", sans-serif;
+  padding-top: 25px;
+}
+.drugi-a-a img {
+  padding-bottom: 100px;
+}
+.drugi-b {
+  background-image: url(media/bg-pattern.jpg);
+}
+.dopuna-2 {
+  padding: 95px 250px;
+}
+.statistika {
+  color: azure;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.box-b {
+  width: 40px;
+  height: 50px;
+  fill: azure;
+}
+
+.treci {
+  margin-top: 95px;
+}
+.treci-a {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+.treci-a h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-size: 40px;
+}
+.treci-a p {
+  font-family: "Work Sans", sans-serif;
+  padding: 20px 0 40px 0;
+}
+.dodatak-1 {
+  padding: 150px 300px;
+}
+.galerija {
+  height: 340px;
+  padding: 0;
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+.pic-1 {
+  background-image: url(media/slike/image-1.jpg);
+}
+.pic-2 {
+  background-image: url(media/slike/image-2.jpg);
+}
+.pic-3 {
+  background-image: url(media/slike/image-3.jpg);
+}
+.pic-4 {
+  background-image: url(media/slike/image-4.jpg);
+}
+.pic-5 {
+  background-image: url(media/slike/image-5.jpg);
+}
+.pic-6 {
+  background-image: url(media/slike/image-6.jpg);
+}
+.pic-7 {
+  background-image: url(media/slike/image-7.jpg);
+}
+.pic-8 {
+  background-image: url(media/slike/image-8.jpg);
+}
+.pic-9 {
+  background-image: url(media/slike/image-9.jpg);
+}
+.galerija-1 {
+  height: 95%;
+  width: 95%;
+}
+.galerija-1:hover {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.galerija-1 h3 {
+  display: block;
+  opacity: 0;
+  text-align: center;
+  padding-top: 100px;
+  transition: 0.6s;
+}
+.galerija-1:hover h3 {
+  opacity: 1;
+  color: white;
+  padding-top: 160px;
+}
+
+.cetvrti .carousel-inner {
+  margin-top: 100px;
+}
+.cetvrti .carousel-item img {
+  height: 500px;
+  width: 100%;
+}
+.cetvrti .slajd-1 {
+  padding-bottom: 180px;
+  font-family: "Work Sans", sans-serif;
+}
+.cetvrti .slajd-2 {
+  padding-bottom: 150px;
+  font-family: "Work Sans", sans-serif;
+}
+.cetvrti .slajd-3 {
+  padding-bottom: 120px;
+  font-family: "Work Sans", sans-serif;
+}
+.cetvrti p {
+  font-size: 22px;
+  font-family: "Space Mono", monospace;
+}
+
+.peti {
+  margin: auto;
+  width: 65%;
+  padding: 45px 0 110px 0;
+}
+.peti img {
+  width: 100%;
+}
+
+.sesti {
+  margin: auto;
+  width: 80%;
+}
+.sesti li {
+  background-color: black;
+}
+.sesti .naslov {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.sesti .naslov h3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-size: 40px;
+}
+.sesti .naslov p {
+  font-family: "Work Sans", sans-serif;
+  padding: 20px 0 40px 0;
+}
+.sesti .carousel-item img {
+  width: 100%;
+  height: 200px;
+}
+.sesti .dopuna-3 {
+  justify-content: center;
+}
+.sesti .tekst-6 {
+  padding: 50px;
+}
+.sesti .tekst-6 h4 {
+  font-family: "Space Mono", monospace;
+}
+.sesti .tekst-6 p {
+  font-family: "Work Sans", sans-serif;
+}
+.sesti .tekst-6-a {
+  font-size: 13px;
+  font-family: "Space Mono", monospace;
+}
+.sesti .carousel-control-prev-icon,
+.sesti .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-color: rgba(128, 128, 128, 0.8);
+  background-size: 60% 60%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.sesti .levo-6 {
+  padding-right: 85px;
+}
+.sesti .desno-6 {
+  padding-left: 65px;
+}
+
+.kontakt {
+  background-color: #f1f1f1;
+}
+.dopuna-4 {
+  justify-content: center;
+}
+.kontakt-1 {
+  padding: 80px 25px;
+}
+.kontakt-1 h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 35px;
+  font-weight: 800;
+}
+.kontakt-1 p {
+  font-family: "Work Sans", sans-serif;
+}
+.kontakt-1-tekst {
+  font-weight: bolder;
+}
+.kontakt-2 {
+  padding: 80px 0;
+  padding-left: 60px;
+}
+.kontakt-2 input[name="text"] {
+  width: 47%;
+  height: 50px;
+  padding-left: 10px;
+  border: none;
+}
+.kontakt-2 input[name="text-1"] {
+  width: 47%;
+  height: 50px;
+  padding-left: 10px;
+  margin-left: 5%;
+  border: none;
+}
+.kontakt-2 input[name="text-2"] {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  border: none;
+}
+.prazno {
+  height: 30px;
+}
+.kontakt-2 textarea {
+  width: 100%;
+  height: 180px;
+  border: none;
+  padding-left: 10px;
+}
+.kontakt-2 button {
+  padding: 18px 25px;
+  background-color: #252525;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+.kraj-a {
+  justify-content: center;
+  background-color: #e2e1e1;
+  margin: 0;
+}
+.kraj-b {
+  height: 120px;
+}
+.kraj-b-1 {
+  text-align: center;
+  padding-top: 25px;
+}
+.kraj-tekst {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+  color: #444;
+}
+.ikonice {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  fill: #444;
+}
+
+@media only screen and (max-width: 1199px) {
+  .dodatak-1 {
+    padding: 125px 200px;
+  }
+  .prvi-c-tekst {
+    padding-top: 200px;
+  }
+  .dopuna-2 {
+    padding: 95px;
+  }
+  .box-a {
+    padding-bottom: 30px;
+  }
+  .statistika {
+    padding-left: 30px;
+  }
+  .drugi-a-a {
+    width: 60%;
+  }
+  .treci-a {
+    width: 60%;
+  }
+  .peti img {
+    width: 100%;
+  }
+  .sesti {
+    width: 100%;
+  }
+  .sesti .naslov {
+    width: 60%;
+  }
+  .kontakt-1 {
+    padding: 80px 200px;
+  }
+  .kontakt-2 {
+    padding: 0 200px;
+  }
+  .btt {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dodatak-1 {
+    padding: 100px 150px;
+  }
+  .lista li {
+    border-left: 5px solid #393939;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-bottom: 1px dotted black;
+  }
+  .prvi-c-nav {
+    flex-direction: column;
+  }
+  .dopuna-1 {
+    margin-left: 30%;
+  }
+  .prvi-c-tekst {
+    padding-top: 350px;
+  }
+  .drugi-b {
+    height: 100%;
+  }
+  .dopuna-2 {
+    padding: 66px 0;
+  }
+  .box-a {
+    padding: 10px 50px;
+  }
+  .drugi-a-a {
+    width: 75%;
+  }
+  .treci-a {
+    width: 75%;
+  }
+  .slajd-1 {
+    display: block !important;
+    padding-bottom: 130px !important;
+  }
+  .slajd-2 {
+    display: block !important;
+    padding-bottom: 110px !important;
+  }
+  .slajd-3 {
+    display: block !important;
+    padding-bottom: 50px !important;
+  }
+  .peti {
+    width: 75%;
+  }
+  .peti img {
+    width: 100%;
+  }
+  .sesti {
+    width: 100%;
+  }
+  .sesti .naslov {
+    width: 75%;
+  }
+  .dopuna-3 {
+    padding: 20px 150px;
+  }
+  .tekst-6 {
+    padding: 30px 100px;
+  }
+  .sesti img {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .sesti .levo-6 {
+    padding-right: 65px;
+  }
+  .sesti .tekst-6 {
+    padding: 20px;
+  }
+  .kontakt-1 {
+    padding: 80px 120px;
+  }
+  .kontakt-2 {
+    padding: 0 120px;
+  }
+  .btt {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .lista li {
+    border-left: 5px solid #393939;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-bottom: 1px dotted black;
+  }
+  .prvi-c-nav {
+    flex-direction: column;
+  }
+  .dodatak-1 {
+    padding: 100px 80px;
+  }
+  .galerija {
+    height: 260px;
+  }
+  .galerija-1:hover h3 {
+    padding-top: 110px;
+  }
+  .prvi-c-nav > div {
+    display: flex !important;
+  }
+  .dopuna-1 {
+    margin-left: 15%;
+  }
+  .prvi-c-tekst {
+    padding-top: 220px;
+  }
+  .prvi-c-tekst p {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .prvi-c-tekst h1 {
+    font-size: 38px;
+  }
+  .prvi-c-tekst button {
+    padding: 11px 22px;
+  }
+  .drugi-a-a {
+    width: 100%;
+  }
+  .box-a {
+    padding: 10px 50px;
+  }
+  .dopuna-2 {
+    padding: 50px 0;
+  }
+  .treci-a {
+    width: 100%;
+  }
+  .slajd-1 {
+    display: block !important;
+    padding-bottom: 120px !important;
+  }
+  .slajd-1 h3 {
+    font-size: 21px;
+  }
+  .slajd-1 p {
+    font-size: 19px;
+  }
+  .slajd-2 {
+    display: block !important;
+    padding-bottom: 120px !important;
+  }
+  .slajd-2 h3 {
+    font-size: 21px;
+  }
+  .slajd-2 p {
+    font-size: 19px;
+  }
+  .slajd-3 {
+    display: block !important;
+    padding-bottom: 60px !important;
+  }
+  .slajd-3 h3 {
+    font-size: 18px;
+  }
+  .slajd-3 p {
+    font-size: 19px;
+  }
+  .peti {
+    width: 25%;
+  }
+  .peti img {
+    width: 100px;
+  }
+  .sesti {
+    width: 100%;
+  }
+  .sesti .naslov {
+    width: 100%;
+  }
+  .dopuna-3 {
+    padding: 0px 50px;
+  }
+  .sesti img {
+    width: 100% !important;
+    height: 100px !important;
+  }
+  .sesti .tekst-6 {
+    padding: 20px;
+    text-align: center !important;
+  }
+  .sesti .levo-6 {
+    padding-right: 0px;
+  }
+  .sesti .desno-6 {
+    padding-left: 0px;
+  }
+  .kontakt-1 {
+    padding: 50px;
+  }
+  .kontakt-2 {
+    padding: 0 50px;
+  }
+  .btt {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .kontakt-2 input[name="text"] {
+    width: 100%;
+  }
+  .kontakt-2 input[name="text-1"] {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .lista li {
+    border-left: 5px solid #393939;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-bottom: 1px dotted black;
+  }
+  .prvi-c-nav {
+    flex-direction: column;
+  }
+  .drugi-a-a {
+    width: 100%;
+  }
+  .dodatak-1 {
+    padding: 100px 60px;
+  }
+  .galerija {
+    height: 210px;
+  }
+  .galerija-1 h3 {
+    font-size: 20px;
+  }
+  .galerija-1:hover h3 {
+    padding-top: 85px;
+  }
+  .dopuna-1 {
+    margin-left: 5%;
+  }
+  .dopuna-2 {
+    padding: 50px;
+  }
+  .box-a {
+    padding-bottom: 20px;
+  }
+  .prvi-c-tekst {
+    padding-top: 220px;
+  }
+  .prvi-c-tekst p {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+  .prvi-c-tekst h1 {
+    font-size: 30px;
+  }
+  .prvi-c-tekst button {
+    padding: 8px 16px;
+  }
+  .treci-a {
+    width: 100%;
+  }
+  .slajd-1 {
+    display: block !important;
+    padding-bottom: 150px !important;
+  }
+  .slajd-1 h3 {
+    font-size: 15px;
+  }
+  .slajd-1 p {
+    font-size: 19px;
+  }
+  .slajd-2 {
+    display: block !important;
+    padding-bottom: 120px !important;
+  }
+  .slajd-2 h3 {
+    font-size: 15px;
+  }
+  .slajd-2 p {
+    font-size: 19px;
+  }
+  .slajd-3 {
+    display: block !important;
+    padding-bottom: 80px !important;
+  }
+  .slajd-3 h3 {
+    font-size: 15px;
+  }
+  .slajd-3 p {
+    font-size: 19px;
+  }
+  .peti {
+    width: 33%;
+  }
+  .peti img {
+    width: 100px;
+  }
+  .sesti {
+    width: 100%;
+  }
+  .sesti .naslov {
+    width: 100%;
+  }
+  .dopuna-3 {
+    padding: 0px 50px;
+  }
+  .sesti img {
+    width: 100% !important;
+    height: 100px !important;
+  }
+  .sesti .tekst-6 {
+    padding: 20px;
+    text-align: center !important;
+  }
+  .sesti .levo-6 {
+    padding-right: 0px;
+  }
+  .sesti .desno-6 {
+    padding-left: 0px;
+  }
+  .kontakt-1 {
+    padding: 50px;
+  }
+  .kontakt-2 {
+    padding: 0 50px;
+  }
+  .btt {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .kontakt-2 input[name="text"] {
+    width: 100%;
+  }
+  .kontakt-2 input[name="text-1"] {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}

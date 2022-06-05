@@ -1,0 +1,134 @@
+.container-fluid {
+    background-color: #f1f1f1;
+    max-width: 100%;
+}
+
+.prvi {
+    height: 80px;
+}
+.prvi-a {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+.prvi-a img {
+    width: 80px;
+} 
+.lista li {
+    margin-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.lista a {
+    color: #393939;
+    font-weight: 800;
+}
+
+.drugi-a {
+    justify-content: center;
+}
+.drugi-b h5 {
+    font-size: 22px;
+    font-family: 'Abril Fatface', cursive;
+}
+.p-1 {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p-2 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.slike {
+    margin-top: 40px;
+    padding: 0;
+}
+.slike img {
+    width: 100%;
+}
+.tekst {
+    background-color:#fff;
+    padding: 15px 40px;
+    margin-bottom: 40px;
+}
+.slike-tekst p {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    background-color: #393939;
+    color: white;
+    padding: 3px 20px;
+    font-size: 10px;
+    margin-bottom: 10px!important;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.kraj-a {
+    justify-content: center;
+    background-color: #e2e1e1;
+}
+.kraj-b {
+    height: 120px;
+}
+.kraj-b-1 {
+    text-align: center;
+    padding-top: 25px;
+}
+.kraj-tekst {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    color: #444;
+}
+.ikonice {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    fill: #444;
+}
+
+@media only screen and (max-width: 991px) {
+  
+    .lista li {
+        border-left: 5px solid #393939;
+        margin-top: 5px;
+        padding-left: 10px;
+        border-bottom: 1px dotted black;
+    }
+    .prvi-a {
+        flex-direction: column;
+    }
+    .dopuna-1 {
+        margin-left: 30%;
+    }
+    .prvi > div {
+        display: flex!important;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  
+    .dopuna-1 {
+        margin-left: 15%;
+    }
+  
+}
+
+@media only screen and (max-width: 375px) {
+  
+    .dopuna-1 {
+        margin-left: 10%;
+    }
+  
+}
+
+@media only screen and (max-width: 320px) {
+  
+    .dopuna-1 {
+        margin-left: 5%;
+    }
+  
+}
